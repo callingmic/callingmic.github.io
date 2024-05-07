@@ -7,8 +7,11 @@ body {
   font-family: "Ubuntu Sans Mono", monospace;
 }
 
-.hero {
+.handw {
   font-family: "Briem Hand", cursive;
+}
+
+.hero {
   font-size: 2rem;
   text-shadow: var(--shadow);
 }
