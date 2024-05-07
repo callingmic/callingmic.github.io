@@ -1,22 +1,268 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>F.ID's</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mik 2nd</title>
 
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="container">
-      <h1>Hello, world!</h1>
-      <button type="button" class="btn text-bg-warning">Warning</button>
-    </div>
-    
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <body id="home">
+    <!-- NAVBAR START-->
+    <nav class="navbar navbar-expand-lg bg-warning nav-link-disable fixed-top">
+      <div class="container">
+        <h1 class="hero navbar-brand nav-link disabled">Mik 2nd | F.ID</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item ps-4">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item ps-4">
+              <a class="nav-link" href="#projects">My Project</a>
+            </li>
+            <li class="nav-item ps-4">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- PROFIL JUMBOTRON START -->
+    <section class="jumbotron text-center">
+      <img
+        class="rounded-circle border-warning"
+        src="img/photo.png"
+        width="200px"
+        alt="gambar"
+      />
+      <h1 class="display-3" style="text-shadow: var(--shadow)">Mik Second</h1>
+      <h5 class="lead" style="text-shadow: var(--shadow)">Gaming | NoLep</h5>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,96L30,106.7C60,117,120,139,180,138.7C240,139,300,117,360,117.3C420,117,480,139,540,160C600,181,660,203,720,176C780,149,840,75,900,53.3C960,32,1020,64,1080,96C1140,128,1200,160,1260,154.7C1320,149,1380,107,1410,85.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- PROFIL JUMBOTRON END -->
+
+    <!-- SECTION ABOUT START -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="pb-5">About Me</h2>
+          </div>
+        </div>
+        <div class="row row-2 justify-content-center fs-5">
+          <div class="col-md-5">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+              architecto nobis odio a accusantium ut tenetur repudiandae
+              exercitationem quas itaque!
+            </p>
+          </div>
+          <div class="col-md-5">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              nam optio atque consequatur, dolorem quibusdam aliquid repellat,
+              vel adipisci nulla aut itaque blanditiis. Ipsam, ad.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffdf7e"
+          fill-opacity="1"
+          d="M0,64L40,80C80,96,160,128,240,122.7C320,117,400,75,480,53.3C560,32,640,32,720,53.3C800,75,880,117,960,154.7C1040,192,1120,224,1200,218.7C1280,213,1360,171,1400,149.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- SECTION ABOUT END -->
+
+    <!-- PROJECT START -->
+    <section id="projects" class="jumbotron">
+      <div class="text-center">
+        <h2 class="pb-5">My Projects</h2>
+      </div>
+      <div class="row justify-content-center gap-5">
+        <div class="card col-md-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card col-md-4" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,32L40,53.3C80,75,160,117,240,112C320,107,400,53,480,69.3C560,85,640,171,720,202.7C800,235,880,213,960,176C1040,139,1120,85,1200,69.3C1280,53,1360,75,1400,85.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- PROJECT END -->
+
+    <!-- CONTACT START -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="pb-5">Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                />
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-warning">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffc107"
+          fill-opacity="1"
+          d="M0,96L34.3,106.7C68.6,117,137,139,206,128C274.3,117,343,75,411,74.7C480,75,549,117,617,149.3C685.7,181,754,203,823,218.7C891.4,235,960,245,1029,218.7C1097.1,192,1166,128,1234,101.3C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- CONTACT END -->
+
+    <!-- START OF FOOTER -->
+    <footer class="bg-warning container-fluid text-center">
+      <div>
+        <div>
+          <a href="#home"
+            ><i class="bi bi-youtube text-danger ps-3 pe-3"></i
+          ></a>
+          <a href="#home"
+            ><i class="bi bi-instagram ps-3 pe-3" style="color: #d82780"></i
+          ></a>
+          <a href="#home"
+            ><i class="bi bi-facebook text-primary ps-3 pe-3"></i
+          ></a>
+        </div>
+        <div class="pb-2 pt-3">
+          Created with <i class="bi bi-heart-fill text-danger pe-2"></i>by
+          <b class="text-dark"> Mik Second</b>
+        </div>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
