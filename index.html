@@ -31,37 +31,31 @@
   </head>
   <body id="home">
     <!-- NAVBAR START-->
-    <nav class="navbar navbar-expand-lg bg-warning nav-link-disable fixed-top">
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
       <div class="container">
-        <h1 class="hero navbar-brand nav-link disabled">Mik 2nd</h1>
+        <a class="navbar-brand nav-link disabled hero handw" href="#home"
+          >Mik 2nd</a
+        >
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item ps-4">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item ps-4">
-              <a class="nav-link" href="#projects">My Project</a>
-            </li>
-            <li class="nav-item ps-4">
-              <a class="nav-link" href="#contact">Contact Me</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active mx-3" aria-current="page" href="#home"
+              >Home</a
+            >
+            <a class="nav-link mx-3" href="#about">About Me</a>
+            <a class="nav-link mx-3" href="#project">My Project</a>
+            <a class="nav-link mx-3" href="#contact">Contact Me</a>
+          </div>
         </div>
       </div>
     </nav>
@@ -127,7 +121,7 @@
     <!-- SECTION ABOUT END -->
 
     <!-- PROJECT START -->
-    <section id="projects" class="jumbotron">
+    <section id="project" class="jumbotron">
       <div class="text-center">
         <h2 class="pb-5">My Projects</h2>
       </div>
@@ -245,15 +239,11 @@
     <footer class="bg-warning container-fluid text-center">
       <div>
         <div>
+          <a href="#home"><i class="bi bi-youtube text-danger mx-3"></i></a>
           <a href="#home"
-            ><i class="bi bi-youtube text-danger ps-3 pe-3"></i
+            ><i class="bi bi-instagram mx-3" style="color: #d82780"></i
           ></a>
-          <a href="#home"
-            ><i class="bi bi-instagram ps-3 pe-3" style="color: #d82780"></i
-          ></a>
-          <a href="#home"
-            ><i class="bi bi-facebook text-primary ps-3 pe-3"></i
-          ></a>
+          <a href="#home"><i class="bi bi-facebook text-primary mx-3"></i></a>
         </div>
         <div class="pb-2 pt-3">
           Created with <i class="bi bi-heart-fill text-danger pe-2"></i>by
