@@ -6,24 +6,22 @@ body {
   font-size: 1.2rem;
   font-family: "Ubuntu Sans Mono", monospace;
 }
-
 .handw {
   font-family: "Briem Hand", cursive;
 }
-
 .hero {
   font-size: 2rem;
   text-shadow: var(--shadow);
 }
-
 .jumbotron {
-  background-color: #ffdf7e;
-}
-
-#project {
   background-color: #ffdf7e;
 }
 
 section {
   padding-top: 5rem;
+}
+
+#project {
+  background-color: #ffdf7e;
+  overflow-x: hidden;
 }
